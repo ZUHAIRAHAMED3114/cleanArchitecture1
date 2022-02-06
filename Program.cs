@@ -22,5 +22,7 @@ namespace CleanArchitectureManishNarayan
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+
+
     }
 }
