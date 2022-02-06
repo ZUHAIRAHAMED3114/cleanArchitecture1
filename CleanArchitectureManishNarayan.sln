@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cleanArchitecture.Mvc", "..\cleanArchitecture.Mvc\cleanArchitecture.Mvc.csproj", "{B77C88E3-BF17-49E8-8D3F-8324F33D162A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Domain", "..\ClassLibrary1\CleanArch.Domain.csproj", "{23A2DAC2-A140-46BF-A4C4-DECFB53C908E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,12 +27,17 @@ Global
 		{B77C88E3-BF17-49E8-8D3F-8324F33D162A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B77C88E3-BF17-49E8-8D3F-8324F33D162A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B77C88E3-BF17-49E8-8D3F-8324F33D162A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23A2DAC2-A140-46BF-A4C4-DECFB53C908E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A2DAC2-A140-46BF-A4C4-DECFB53C908E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A2DAC2-A140-46BF-A4C4-DECFB53C908E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A2DAC2-A140-46BF-A4C4-DECFB53C908E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B77C88E3-BF17-49E8-8D3F-8324F33D162A} = {B2F2BE24-D7F8-4BA5-9A01-5BB721233061}
+		{23A2DAC2-A140-46BF-A4C4-DECFB53C908E} = {8B47FF5E-157D-4F36-B1CD-461F42097D4C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A693EE3-A48A-4F21-A9EC-30C2426232CA}
