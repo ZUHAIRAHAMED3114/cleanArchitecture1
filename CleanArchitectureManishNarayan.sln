@@ -3,19 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureManishNarayan", "CleanArchitectureManishNarayan.csproj", "{119E6C37-6794-4952-97D0-4FF87DEE3068}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cleanArchitecture.Application", "cleanArchitecture.Application", "{BBD5A3CB-9ADA-4D4C-B9D5-5C0785CAA3E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cleanArchitecture.Domain", "cleanArchitecture.Domain", "{8B47FF5E-157D-4F36-B1CD-461F42097D4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cleanArchitecture.Infra.IoC", "cleanArchitecture.Infra.IoC", "{1BD38C74-86F0-409D-8376-689CD386F76F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cleanArchitecture.Infra.Data", "cleanArchitecture.Infra.Data", "{9EC6C918-85E5-4C8C-B97C-E8780F24C1F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cleanArchitecture.UI.Mvc", "cleanArchitecture.UI.Mvc", "{B2F2BE24-D7F8-4BA5-9A01-5BB721233061}"
 EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{119E6C37-6794-4952-97D0-4FF87DEE3068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{119E6C37-6794-4952-97D0-4FF87DEE3068}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{119E6C37-6794-4952-97D0-4FF87DEE3068}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{119E6C37-6794-4952-97D0-4FF87DEE3068}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
